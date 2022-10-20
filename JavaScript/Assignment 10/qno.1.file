@@ -1,0 +1,6 @@
+1.Are Higher Order functions and Call back functions the same ? If not,
+briefly explain about both functions.
+
+Ans : No
+      Reason: Higher Order Functions -> The function which has an another function on its parameter and return the function.
+              Callback Functions -> The function passed as an argument to the another function.
