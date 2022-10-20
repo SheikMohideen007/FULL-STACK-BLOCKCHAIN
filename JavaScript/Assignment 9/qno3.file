@@ -1,0 +1,5 @@
+3. What is a lexical scope and how is it related to closure?
+
+Ans: lexical scope defines the scope of variable from the OuterFunction. Closure function is a function
+     which is enclosed in the OuterFunction and it has a lexical scope to access the variable.
+     so, we can access the variable of the OuterFunction inside in the closure function (which is enclosed).

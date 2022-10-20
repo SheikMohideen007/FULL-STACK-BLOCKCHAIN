@@ -1,0 +1,23 @@
+1. Carefully observe this example.
+
+a) Is the InnerFunction() a closure?
+
+----------------------------------
+Ans:  yes it is a closure function.
+----------------------------------
+
+b) What is output of this program
+
+ function OuterFunction() {
+   var outerVariable = 100;
+   function InnerFunction() {
+     alert(outerVariable);
+   }
+   return InnerFunction;
+ }
+ var innerFunc = OuterFunction();
+ innerFunc();
+ 
+----------------------
+Ans: Output : 100
+----------------------
